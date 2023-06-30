@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">My Logo</div>
+            <ul class="nav">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./cv.html">CV</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+        </nav>
+        <div class="projects-wrapper">
+        <h1>My Projects</h1>
+        <body>
+            <h1>Employee Satisfaction and Engagement Survey Form</h1>
+            <p>Please fill in the survey form.
+            <form action="#" method="post">
+              <fieldset class="big"
+              <legend><h2>Personal Information</h2></legend>
+              <label for="fname">First Name:</label>
+              <input type="text" id="fname" name="fname">
+              <br><br>
+              
+              <label for="lname">Last Name:</label>
+              <input type="text" id="lname" name="lname" required>
+              <br><br>
+              
+              <label for="emal">Email:</label>
+              <input type="email" id="emal" name="email " size="30" required>
+              <br><br>
+              
+              <label for="department">Department:</label>
+              <input type="text" id="department" name="department" required>
+              <br><br>
+              </fieldset>
+              <fieldset class="big">
+                <legend><h2>Employment Status</h2></legend>
+              <label for="permanent">Permanent:</label>
+              <input type="radio" id="permanent" name="best">
+             
+              <br><br>
+              
+              <label for="contract">Contract:</label>
+              <input type="radio" id="contract" name="best">
+              <br><br>
+              </fieldset>
+              <fieldset class="big">
+            <legend> <h2>Survey Questions</h2></legend>
+              <ol>
+                <li>
+                  <p>How satisfied are you with your current role and responsbility?</p>
+                  <label><input type="radio" name="satisfaction" value="very satisfied" required>Very satisfied</label><br>
+                  <label><input type="radio" name="satisfaction" value="satisfied">Satisfied</label><br>
+                  <label><input type="radio" name="satisfaction" value="neutral">Neutral</label><br>
+                  <label><input type="radio" name="satsfaction" value="dissatsfied">Dissatisfied</label><br>
+                  <label><input type="radio" name="satsfaction" value="very dissatisfied">Very dissatisfied</label><br>
+                </li>
+                <li>
+                  <p>How would you rate your relationship with your coworkers and supervisors</p>
+                  <label><input type="radio" name="relationship" value="excellent" required>Excellent </label><br>
+                  <label><input type="radio" name="relationship" value="good">Good</label><br>
+                   <label><input type="radio" name="relationship" value="average">Average</label><br>
+                   <label><input type="radio" name="relationship" value="poor">Poor</label><br>
+                   <label><input type="radio" name="relationship" value="very poor">Very poor</label><br>
+                </li>
+                <li>
+                  <p>Do you feel valued and appreciated for your work?</p>
+                   <label><input type="radio" name="value appreciation" value="yes" required>Yes</label><br>
+                  <label><input type="radio" name="value appreciation" value="no">No</label><br>
+                </li>
+                <li>
+                  <p>Are there any challenges or obstacles that hinder your productivity or job satisfaction? If yes please specify</p>
+                  <textarea name="challenges" rows="5" cols="50"></textarea><br><br>
+                </li>
+                <li>
+                  <p>Do you feel your skills and abilities are effectively utilized in your current role?</p>
+                  <label><input type="radio" name="skills-utilized" value="yes" required>Yes</label><br>
+                  <label><input type="radio" name="skills-utilized" value="yes" required>No</label><br>
+                </li>
+              </ol>
+                </fieldset>
+              
+              
+              <label for="file">Upload your perfomance appraisal report</label>
+              <input type="file" id="file" name="file"><br><br>
+              
+              
+              
+              
+              <button type="submit">Submit</button>
+              </body>
+              
+        
+
+        </body>
+        </html>
+            
+        

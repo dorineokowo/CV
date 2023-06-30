@@ -1,6 +1,15 @@
 /**********************************************
-                    SIDE WIDE
+                    SITE WIDE
 ***********************************************/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header, main{
+    margin: 20px;
+}
 
 
 /* FONTS */
@@ -42,6 +51,56 @@ h5{
     margin: 0px;
 }
 
+
+/* NAVBAR */
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px; 
+}
+
+.navbar{
+    background-color: #3474e6;
+    color: white;
+    height: 60px;
+   
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar li{
+    margin-left: 20px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.logo{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+
+/*****************************************************************
+                            CV
+*****************************************************************/
+
 */ DISPLAY */
 
  #info .left{
@@ -51,8 +110,8 @@ h5{
 
 }
  #info .right{
-    display: inline-block;
-    width: 49%;
+    vertical-align: bottom;
+    text-align: right;
 }
 section .left{
     display: inline-block;
@@ -88,10 +147,70 @@ section .left{
     display: inline-block;
     width: 24%;
 }
+
+
+/*************************************************
+                    PROJECTS
+**************************************************/
+
+
+
+.projects-wrapper{
+    margin: 20px;
+}
+
+label{
+    display: block;
+    paddng-top:20px; 
+  }
+  
+  .form-question{
+    margin: 10px;
+  }
+  h1, h2{
+    color: red;
+    font-family: helvetica;
+  }
+  h1{
+    color: blue;
+  }
+  body{
+    border: 1px solid blue;
+    margin: 10px;
+    padding: 20px 40px 50px 0;
+    font-weight: 500;
+  }
+  body{
+    background-color:
+  }
+  .big { border-color: blue;
+    
+  }
+  fieldset{
+    color: blue;
+  }
+    
+    
+   
+    
+    p{
+      font-style: sans-serif;
+      font-size: 20px;
+    }
+  
+  
+  
+  
+
+
+
 /**********************************************
                     CONTACT
 ***********************************************/
 
+.contact-wrapper{
+    margin: 20px;
+}
 .form-question{
     margin: 20px 0;
 }

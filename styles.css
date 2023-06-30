@@ -159,44 +159,7 @@ section .left{
     margin: 20px;
 }
 
-label{
-    display: block;
-    paddng-top:20px; 
-  }
-  
-  .form-question{
-    margin: 10px;
-  }
-  h1, h2{
-    color: red;
-    font-family: helvetica;
-  }
-  h1{
-    color: blue;
-  }
-  body{
-    border: 1px solid blue;
-    margin: 10px;
-    padding: 20px 40px 50px 0;
-    font-weight: 500;
-  }
-  body{
-    background-color:
-  }
-  .big { border-color: blue;
-    
-  }
-  fieldset{
-    color: blue;
-  }
-    
-    
-   
-    
-    p{
-      font-style: sans-serif;
-      font-size: 20px;
-    }
+
   
   
   

@@ -101,7 +101,26 @@ h5{
                             CV
 *****************************************************************/
 
-*/ DISPLAY */
+.paper-background{
+    background-color: white;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+#info, main{
+    max-width: 1000px;
+    padding: 0 20px;
+    
+}
+
+#info{
+    margin: 30px auto;
+}
+
+main{
+    margin: 0 auto;
+}
+
+/* DISPLAY */
 
 @media screen and (max-width: 799px) {
    
@@ -145,19 +164,7 @@ section{
  }
 }
 
-#info, main{
-    max-width: 1000px;
-    padding: 0 20px;
-    
-}
 
-#info{
-    margin: 30px auto;
-}
-
-main{
-    margin: 0 auto;
-}
 
 #info h1{
     margin: 0;
@@ -177,10 +184,6 @@ main{
 }
 
 
-#info .right{
-    vertical-align: bottom;
-    text-align: right;
-}
 
 
 
